@@ -35,6 +35,6 @@ cacheSolve <- function(x, ...) {
 }
 
 # test example
-s = diag(3)
+s = diag(3)*3
 ss = makeCacheMatrix(s)
 cacheSolve(ss)
